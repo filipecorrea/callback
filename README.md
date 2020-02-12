@@ -18,7 +18,6 @@ Specify environment variables using a `.env` file (optional):
 
 ```
 KEY=<KEY>
-PORT=<PORT>
 ```
 
 ## Run
@@ -35,4 +34,4 @@ Specify an environment variable `KEY` to be returned and start application:
 KEY=<KEY> npm start
 ```
 
-If no `PORT` is specified, the server will be listening on http://localhost:3000.
+The server will be listening on http://localhost:3000.

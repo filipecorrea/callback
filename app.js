@@ -4,4 +4,4 @@ require('dotenv').config()
 http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/json'})
     res.end(`{ data:${process.env.KEY} }`)
-}).listen(process.env.PORT || 3000)
+}).listen(3000)

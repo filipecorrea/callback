@@ -1,0 +1,28 @@
+{
+  "name": "callback",
+  "version": "1.0.0",
+  "description": "Callback server for domain validation.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipecorrea/callback.git"
+  },
+  "keywords": [
+    "callback",
+    "server",
+    "domain",
+    "validation"
+  ],
+  "author": "Filipe Correa <filipecorrea@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipecorrea/callback/issues"
+  },
+  "homepage": "https://github.com/filipecorrea/callback#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
